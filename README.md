@@ -59,7 +59,7 @@ Performance on Multisports dataset:
 
 Performance on J-HMDB dataset:
 | Method                          | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
-|:-------------------------------:|-----------------|-----------------|
+|:-------------------------------:|:---------------:|:---------------:|
 | ROAD (ICCV)                     | 71.10           | 72.00           |
 | MOC-Detector (ECCV)             | 81.06           | 77.20           |
 | Tad-TR (TIP)                    | 68.70           | 78.90           |
@@ -67,13 +67,13 @@ Performance on J-HMDB dataset:
 | MOC+ConvFormer (MICCAI)         | 79.65           | 67.01           |
 | MOC+DilateFormer (TMM)          | 10.25           | 5.85            |
 | Ours with VideoLLaMA2           | 98.91           | 100.00          |
-| **Ours with LLaVA-NeXT**       | **99.32**       | **100.00**      |
+| **Ours with LLaVA-NeXT**        | **99.32**       | **100.00**      |
 | Ours with LongVA                | 98.82           | 100.00          |
 | Ours with LLaVA                 | 98.44           | 100.00          |
 
 Performance on UCF101-24 dataset:
 | Method                          | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
-|---------------------------------|-----------------|-----------------|
+|:-------------------------------:|:---------------:|:---------------:|
 | ROAD (ICCV)                     | 43.30           | 46.30           |
 | MOC-Detector (ECCV)             | 98.49           | 53.80           |
 | YOWOv2 (ARXIV)                  | 87.00           | 52.80           |
@@ -83,11 +83,11 @@ Performance on UCF101-24 dataset:
 | Ours with VideoLLaMA2           | 98.39           | 91.69           |
 | Ours with LLaVA-NeXT            | 97.94           | 89.36           |
 | Ours with LongVA                | 97.82           | 90.80           |
-| **Ours with LLaVA**             | **98.88**       | **92.20**      |
+| **Ours with LLaVA**             | **98.88**       | **92.20**       |
 
 Performance using Prompts Pooling:
-| MLLMs        | FrameAP@0.2 (%) | FrameAP@0.5 (%) | FrameAP@0.75 (%) | VideoAP@0.2 (%) | VideoAP@0.5 (%) | VideoAP@0.75 (%) |
-|-------------|-------|-------|-------|--------|--------|-------|
+| MLLMs       | FrameAP@0.2 (%) | FrameAP@0.5 (%) | FrameAP@0.75 (%) | VideoAP@0.2 (%) | VideoAP@0.5 (%) | VideoAP@0.75 (%) |
+|:-----------:|:-----:|:-----:|:-----:|:------:|:------:|:-----:|
 | LLaVA-NeXT  | 99.99 | 99.58 | 73.38 | 100.00 | 100.00 | 86.79 |
 | LLaVA       | 99.56 | 98.02 | 61.69 | 100.00 | 100.00 | 79.79 |
 | VideoLLaMA2 | 99.58 | 98.98 | 60.42 | 100.00 | 100.00 | 75.49 |
