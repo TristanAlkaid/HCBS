@@ -8,7 +8,7 @@ This project is the official implementation of the paper _"Hierarchical Chat-Bas
 ## 🏈 Key Features
 - **Hierarchical Chat-Based Strategy (HCBS)**
   
-  A progressive dialogue protocol guiding MLLMs to generate structured action descriptions:
+  A progressive dialogue protocol guiding **M**ultimodal **L**arge **L**anguage **M**odel**s**(MLLMs) to generate structured action descriptions:
   
     • Entity Localization: Identify potential actors
 
