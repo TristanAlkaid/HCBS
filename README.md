@@ -17,6 +17,7 @@ This project is the official implementation of the paper _"Hierarchical Chat-Bas
     • Micro-action Parsing: Capture subtle motion details
 
 - **Football Description Dataset**
+  
   Contains 712 football match clip descriptions  focusing on:
   
     • 83% small-target motions
