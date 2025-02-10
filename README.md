@@ -10,18 +10,18 @@ This project is the official implementation of the paper _"Hierarchical Chat-Bas
   
   A progressive dialogue protocol guiding MLLMs to generate structured action descriptions:
   
-• Entity Localization: Identify potential actors
+    • Entity Localization: Identify potential actors
 
-• Trajectory Prediction: Analyze motion patterns
+    • Trajectory Prediction: Analyze motion patterns
 
-• Micro-action Parsing: Capture subtle motion details
+    • Micro-action Parsing: Capture subtle motion details
 
 - **Football Description Dataset**
   Contains 712 football match clip descriptions  focusing on:
   
-• 83% small-target motions
+    • 83% small-target motions
 
-• 65% multi-participator overlapping scenarios
+    • 65% multi-participator overlapping scenarios
 
 
 
