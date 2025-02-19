@@ -29,12 +29,12 @@ This project is the official implementation of the paper _"Hierarchical Chat-Bas
 
 ## 🛠️ Setup
 ### Code Integration
-1. Clone base framework-
+#### Clone base framework:
 ```bash
 git clone https-//github.com/MCG-NJU/MOC-Detector.git
 ```
 
-2. Overwrite core modules-
+#### Overwrite core modules:
 ```bash
 cp -r Project/src/ MOC-Detector/src/
 ```
@@ -44,7 +44,7 @@ Please the instruction of https-//github.com/MCG-NJU/MOC-Detector.
 
 
 ## 📊 Benchmark Results
-Performance on Multisports dataset-
+### Performance on Multisports dataset:
 |  Method                       | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
 | ----------------------------- | --------------- | --------------- |
 | ROAD (ICCV, 2017)             | 3.90            | 0.00            |
@@ -58,7 +58,7 @@ Performance on Multisports dataset-
 | **Ours with LLaVA**           | **8.23**        | **0.11**        |
 
 
-Performance on J-HMDB dataset-
+### Performance on J-HMDB dataset：
 | Method                          | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
 |---------------------------------|-----------------|-----------------|
 | ROAD (ICCV, 2017)               | 71.10           | 72.00           |
@@ -72,7 +72,7 @@ Performance on J-HMDB dataset-
 | Ours with LongVA                | 98.82           | 100.00          |
 | Ours with LLaVA                 | 98.44           | 100.00          |
 
-Performance on UCF101-24 dataset-
+### Performance on UCF101-24 dataset;
 | Method                          | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
 |---------------------------------|-----------------|-----------------|
 | ROAD (ICCV, 2017)               | 43.30           | 46.30           |
@@ -86,7 +86,7 @@ Performance on UCF101-24 dataset-
 | Ours with LongVA                | 97.82           | 90.80           |
 | **Ours with LLaVA**             | **98.88**       | **92.20**       |
 
-Performance using Prompts Pooling-
+### Performance using Prompts Pooling:
 | MLLMs       | FrameAP@0.2 (%) | FrameAP@0.5 (%) | FrameAP@0.75 (%) | VideoAP@0.2 (%) | VideoAP@0.5 (%) | VideoAP@0.75 (%) |
 |-------------|-----------------|-----------------|------------------|-----------------|-----------------|------------------|
 | LLaVA-NeXT  | 99.99           | 99.58           | 73.38            | 100.00          | 100.00          | 86.79            |
@@ -95,16 +95,16 @@ Performance using Prompts Pooling-
 | LongVA      | 99.72           | 97.66           | 64.52            | 100.00          | 100.00          | 67.01            |
 
 ## 📜 Citation
-If you use this work, please cite-
+If you use this work, please cite:
 ```bibtex
 @article{HCBS,
     title = {Hierarchical chat-based strategies with MLLMs for Spatio-temporal action detection},
     journal = {Information Processing & Management},
     author = {Xuyang Zhou and Ye Wang and Fei Tao and Hong Yu and Qun Liu},
+    year = {2025},
     volume = {62},
     number = {4},
     pages = {104094},
-    year = {2025},
     issn = {0306-4573},
     doi = {https-//doi.org/10.1016/j.ipm.2025.104094}
 }
