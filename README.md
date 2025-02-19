@@ -29,18 +29,18 @@ This project is the official implementation of the paper _"Hierarchical Chat-Bas
 
 ## 🛠️ Setup
 ### Code Integration
-#### Clone base framework:
+1. Clone base framework:
 ```bash
 git clone https-//github.com/MCG-NJU/MOC-Detector.git
 ```
 
-#### Overwrite core modules:
+2. Overwrite core modules:
 ```bash
 cp -r Project/src/ MOC-Detector/src/
 ```
 
 ## 🚀 Quick Start
-Please the instruction of https-//github.com/MCG-NJU/MOC-Detector.
+Please follow the instruction of https-//github.com/MCG-NJU/MOC-Detector.
 
 
 ## 📊 Benchmark Results
