@@ -98,10 +98,15 @@ Performance using Prompts Pooling:
 If you use this work, please cite:
 ```bibtex
 @article{HCBS,
-  title={Hierarchical Chat-Based Strategies with MLLMs For Spatio-Temporal Action Detection},
-  author={Xuyang Zhou, Ye Wang, Fei Tao, Hong Yu, Qun Liu},
-  journal={Information Processing & Management},
-  year={2025}
+title = {Hierarchical chat-based strategies with MLLMs for Spatio-temporal action detection},
+journal = {Information Processing & Management},
+author = {Xuyang Zhou and Ye Wang and Fei Tao and Hong Yu and Qun Liu},
+volume = {62},
+number = {4},
+pages = {104094},
+year = {2025},
+issn = {0306-4573},
+doi = {https://doi.org/10.1016/j.ipm.2025.104094},
 }
 ```
 
