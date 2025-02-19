@@ -45,28 +45,28 @@ Please the instruction of https://github.com/MCG-NJU/MOC-Detector.
 
 ## 📊 Benchmark Results
 Performance on Multisports dataset:
-|         Method          | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
-| :---------------------: | :-------------: | :-------------: |
-|       ROAD (ICCV)       |      3.90       |      0.00       |
-|     SlowFast (ICCV)     |      0.00       |      0.00       |
-|   MOC-Detector (ECCV)   |      6.40       |      0.00       |
-| MOC+ConvFormer (MICCAI) |      5.10       |      0.00       |
-| MOC+DilateFormer (TMM)  |      5.97       |      0.04       |
-|  Ours with VideoLLaMA2  |      7.21       |      0.00       |
-|  Ours with LLaVA-NeXT   |      7.46       |      0.06       |
-|    Ours with LongVA     |      7.30       |      0.02       |
-|   **Ours with LLaVA**   |    **8.23**     |    **0.11**    |
+|  Method                       | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
+| :---------------------------: | :-------------: | :-------------: |
+| ROAD (ICCV, 2017)             |      3.90       |      0.00       |
+| SlowFast (ICCV, 2019)         |      0.00       |      0.00       |
+| MOC-Detector (ECCV, 2023)     |      6.40       |      0.00       |
+| MOC+ConvFormer (MICCAI, 2023) |      5.10       |      0.00       |
+| MOC+DilateFormer (TMM, 2023)  |      5.97       |      0.04       |
+| Ours with VideoLLaMA2         |      7.21       |      0.00       |
+| Ours with LLaVA-NeXT          |      7.46       |      0.06       |
+| Ours with LongVA              |      7.30       |      0.02       |
+| **Ours with LLaVA**           |    **8.23**     |    **0.11**    |
 
 
 Performance on J-HMDB dataset:
 | Method                          | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
 |:-------------------------------:|:---------------:|:---------------:|
-| ROAD (ICCV)                     | 71.10           | 72.00           |
-| MOC-Detector (ECCV)             | 81.06           | 77.20           |
-| Tad-TR (TIP)                    | 68.70           | 78.90           |
-| HIT (WACV)                      | 88.10           | 83.80           |
-| MOC+ConvFormer (MICCAI)         | 79.65           | 67.01           |
-| MOC+DilateFormer (TMM)          | 10.25           | 5.85            |
+| ROAD (ICCV, 2017)               | 71.10           | 72.00           |
+| MOC-Detector (ECCV, 2020)       | 81.06           | 77.20           |
+| Tad-TR (TIP, 2022)              | 68.70           | 78.90           |
+| HIT (WACV, 2023)                | 88.10           | 83.80           |
+| MOC+ConvFormer (MICCAI, 2023)   | 79.65           | 67.01           |
+| MOC+DilateFormer (TMM, 2023)    | 10.25           | 5.85            |
 | Ours with VideoLLaMA2           | 98.91           | 100.00          |
 | **Ours with LLaVA-NeXT**        | **99.32**       | **100.00**      |
 | Ours with LongVA                | 98.82           | 100.00          |
@@ -75,12 +75,12 @@ Performance on J-HMDB dataset:
 Performance on UCF101-24 dataset:
 | Method                          | FrameAP@0.5 (%) | VideoAP@0.5 (%) |
 |:-------------------------------:|:---------------:|:---------------:|
-| ROAD (ICCV)                     | 43.30           | 46.30           |
-| MOC-Detector (ECCV)             | 98.49           | 53.80           |
-| YOWOv2 (ARXIV)                  | 87.00           | 52.80           |
-| HIT (WACV)                      | 84.80           | 74.30           |
-| MOC+ConvFormer (MICCAI)         | 97.00           | 88.49           |
-| MOC+DilateFormer (TMM)          | 92.16           | 86.85           |
+| ROAD (ICCV, 2017)               | 43.30           | 46.30           |
+| MOC-Detector (ECCV, 2020)       | 98.49           | 53.80           |
+| YOWOv2 (ARXIV,2023)             | 87.00           | 52.80           |
+| HIT (WACV, 2023)                | 84.80           | 74.30           |
+| MOC+ConvFormer (MICCAI, 2023)   | 97.00           | 88.49           |
+| MOC+DilateFormer (TMM, 2023)    | 92.16           | 86.85           |
 | Ours with VideoLLaMA2           | 98.39           | 91.69           |
 | Ours with LLaVA-NeXT            | 97.94           | 89.36           |
 | Ours with LongVA                | 97.82           | 90.80           |
@@ -98,15 +98,15 @@ Performance using Prompts Pooling:
 If you use this work, please cite:
 ```bibtex
 @article{HCBS,
-title = {Hierarchical chat-based strategies with MLLMs for Spatio-temporal action detection},
-journal = {Information Processing & Management},
-author = {Xuyang Zhou and Ye Wang and Fei Tao and Hong Yu and Qun Liu},
-volume = {62},
-number = {4},
-pages = {104094},
-year = {2025},
-issn = {0306-4573},
-doi = {https://doi.org/10.1016/j.ipm.2025.104094},
+    title = {Hierarchical chat-based strategies with MLLMs for Spatio-temporal action detection},
+    journal = {Information Processing & Management},
+    author = {Xuyang Zhou and Ye Wang and Fei Tao and Hong Yu and Qun Liu},
+    volume = {62},
+    number = {4},
+    pages = {104094},
+    year = {2025},
+    issn = {0306-4573},
+    doi = {https://doi.org/10.1016/j.ipm.2025.104094},
 }
 ```
 
