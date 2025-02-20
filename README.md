@@ -1,7 +1,7 @@
 
 # Hierarchical Chat-Based Strategies with MLLMs for Spatio-Temporal Action Detection
-[![Paper](https-//img.shields.io/badge/IPM-Paper-<COLOR>.svg)](https-//doi.org/10.1016/j.ipm.2025.104094) 
-[![Dataset](https-//img.shields.io/badge/Dataset-Football_Description-red)](Data/)
+[![Paper](https://img.shields.io/badge/IPM-Paper-<COLOR>.svg)](https-//doi.org/10.1016/j.ipm.2025.104094) 
+[![Dataset](https://img.shields.io/badge/Dataset-Football_Description-red)](Data/)
 
 This project is the official implementation of the paper _"Hierarchical Chat-Based Strategies with MLLMs For Spatio-Temporal Action Detection"_.
 [[Paper](https-//doi.org/10.1016/j.ipm.2025.104094)][[Free access before April 08, 2025](https-//authors.elsevier.com/c/1kdLU15hYd-jQk)]
