@@ -1,7 +1,7 @@
-
 # Hierarchical Chat-Based Strategies with MLLMs for Spatio-Temporal Action Detection
 [![Paper](https://img.shields.io/badge/IPM-Paper-<COLOR>.svg)](https://doi.org/10.1016/j.ipm.2025.104094) 
 [![Dataset](https://img.shields.io/badge/Dataset-Football_Description-red)](Data/)
+[![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue)](LICENSE)
 
 This project is the official implementation of the paper _"Hierarchical Chat-Based Strategies with MLLMs For Spatio-Temporal Action Detection"_.
 [[Paper](https://doi.org/10.1016/j.ipm.2025.104094)][[Free access before April 08, 2025](https://authors.elsevier.com/c/1kdLU15hYd-jQk)]
@@ -9,7 +9,7 @@ This project is the official implementation of the paper _"Hierarchical Chat-Bas
 ## 🏈 Key Features
 - **Hierarchical Chat-Based Strategy (HCBS)**
   
-  A progressive dialogue protocol guiding **M**ultimodal **L**arge **L**anguage **M**odel**s**(MLLMs) to generate structured action descriptions-
+  A progressive dialogue protocol guiding **M**ultimodal **L**arge **L**anguage **M**odel**s**(MLLMs) to generate structured action descriptions:
   
     • Entity Localization- Identify potential actors
 
@@ -19,11 +19,11 @@ This project is the official implementation of the paper _"Hierarchical Chat-Bas
 
 - **Football Description Dataset**
   
-  Contains 712 football match clip descriptions  focusing on-
+  Contains 712 football match clip descriptions focusing on:
   
-    • 83% small-target motions
+    • 94.47% small-target actions
 
-    • 65% multi-participator overlapping scenarios
+    • 40% multi-participator overlapping scenarios
 
 
 
@@ -31,7 +31,7 @@ This project is the official implementation of the paper _"Hierarchical Chat-Bas
 ### Code Integration
 1. Clone base framework:
 ```bash
-git clone https-//github.com/MCG-NJU/MOC-Detector.git
+git clone https://github.com/MCG-NJU/MOC-Detector.git
 ```
 
 2. Overwrite core modules:
@@ -40,7 +40,7 @@ cp -r Project/src/ MOC-Detector/src/
 ```
 
 ## 🚀 Quick Start
-Please follow the instruction of https-//github.com/MCG-NJU/MOC-Detector.
+Please follow the instruction of https://github.com/MCG-NJU/MOC-Detector.
 
 
 ## 📊 Benchmark Results
@@ -106,7 +106,7 @@ If you use this work, please cite:
     number = {4},
     pages = {104094},
     issn = {0306-4573},
-    doi = {https-//doi.org/10.1016/j.ipm.2025.104094}
+    doi = {https://doi.org/10.1016/j.ipm.2025.104094}
 }
 ```
 
